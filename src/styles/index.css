@@ -1,3 +1,82 @@
 /* 
-    General Styles
+    General Styles 
+    - Estilos globales mejorados para un diseño más moderno y estético.
 */
+
+/* Imágenes: tamaño y ajustes */
+.width-img {
+  width: 120px; /* Tamaño más visible */
+  border-radius: 8px; /* Esquinas redondeadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+  transition: transform 0.3s ease; /* Suaviza el cambio al interactuar */
+}
+
+.width-img:hover {
+  transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+}
+
+/* Estilo del logo de Star Wars */
+.logostarwars {
+  width: 6em; /* Tamaño ligeramente más grande */
+  margin-left: 5%; /* Ajusta el margen para centrar mejor */
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.4)); /* Sombra sutil */
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.logostarwars:hover {
+  transform: rotate(-5deg); /* Efecto de inclinación al pasar el mouse */
+  filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.6));
+}
+
+/* Botones dentro de la barra de navegación */
+.navbar .btn {
+  margin-right: 8%; /* Reduce el espacio para mayor armonía */
+  padding: 10px 20px; /* Mejora el tamaño del botón */
+  background-color: #f9aa33; /* Color naranja vibrante */
+  color: white; /* Texto blanco para contraste */
+  font-size: 1rem; /* Tamaño del texto */
+  font-weight: bold; /* Resalta el texto */
+  border: none; /* Elimina bordes predeterminados */
+  border-radius: 25px; /* Forma redondeada */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar relieve */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar .btn:hover {
+  background-color: #ff7043; /* Cambia a un naranja más oscuro */
+  transform: translateY(-3px); /* Efecto de levantamiento al interactuar */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra más intensa */
+}
+
+/* Estilo de las opciones en select/menús desplegables */
+option {
+  background-color: #f5f5f5; /* Fondo gris claro */
+  color: #333; /* Texto en gris oscuro */
+  font-size: 1rem; /* Tamaño cómodo para lectura */
+  padding: 10px; /* Espaciado interno */
+  border: 1px solid #ddd; /* Borde sutil */
+  border-radius: 4px; /* Esquinas redondeadas */
+}
+
+option:hover {
+  background-color: #e0e0e0; /* Fondo más oscuro al pasar el mouse */
+  color: #000; /* Texto negro para mayor contraste */
+}
+
+/* Opcional: Añade un estilo de cuerpo base para armonizar */
+body {
+  font-family: 'Arial', sans-serif; /* Fuente limpia y legible */
+  background-color: #f4f4f9; /* Fondo neutro */
+  color: #333; /* Texto oscuro */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar-logo {
+  width: 150px;
+  filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.3));
+}
+
+.delete-icon {
+  cursor: pointer;
+}
